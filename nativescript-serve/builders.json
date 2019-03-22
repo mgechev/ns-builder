@@ -1,0 +1,10 @@
+{
+  "$schema": "../architect/src/builders-schema.json",
+  "builders": {
+    "start": {
+      "implementation": "./src/builders/builder",
+      "schema": "./src/builders/schema.json",
+      "description": "NativeScript start builder"
+    }
+  }
+}
